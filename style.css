@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: peru;
+    height: 100vh;
+}
+
+.container {   
+    width: 250px;
+    height: 250px;
+    border: 2px dashed  aliceblue;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    background-color: goldenrod;
+    backdrop-filter: blur(30px);
+}
+h1  {
+    font-family: monospace;
+    margin: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    font-weight: 575;
+    font-size: 25px;
+    text-decoration: 3px underline dotted aliceblue;
+    line-height: 25px;
+    text-decoration-thickness: 7px;}
+
+
+input[type='number'] { 
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(217, 94, 94) ;
+    border-radius: 3px;
+    margin: 10px 0 ;
+    font-size: 13px;
+    width: 90%;
+    height: 15px;
+    padding: 5px;
+}
+p    {    
+     display: flex;
+    justify-content: center;
+    align-items: center;}
+
+input[type='button'] {
+     border: none;
+     border-radius: 3px;
+     background-color:peru;
+     margin: 10px;   
+     border-bottom: 1px solid  rgb(217, 94, 94); 
+     color: aliceblue;    
+     padding: 2px 3.3px; 
+    }
+    
+input[type='button']:hover 
+    {  
+       cursor: pointer; 
+       transform: scale(1.1);
+       background-color: rgb(197, 117, 36);
+       transition: 0.675s;}
+    
+span {
+    font-family:monospace;
+    font-size: 20px;    
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 0 0 15px gray;}
+    
+input[type='button']:active {  
+    
+    cursor: pointer;
+    transform: scale(0.9);
+    background-color: rgb(197, 117, 36);
+    color: aliceblue;
+    transition: 0.75s}
+
+.block {
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;}
